@@ -6,13 +6,22 @@
   font-family: Arial, sans-serif; /* Font styling */
 }
 
-.contact-image {
-  position: relative; /* Fix the element relative to the viewport */
+.bottom-left p {
+  position: fixed; /* Fix the element relative to the viewport */
   bottom: 0; /* Align it to the bottom */
-  padding: 0px;
+  left: 20px; /* Align it to the left */
+  padding-left: 20px;
+  font-family: Arial, sans-serif; /* Font styling */
+}
+
+.contact-image {
+  position: fixed; /* Fix the element relative to the viewport */
+  bottom: 0; /* Align it to the bottom */
+  padding: 10px;
   left: 0; /* Align it to the left */
   width: 30px;
   height: 30px;
+  background-color: #f0f0f0;
 }
 
 /* The Modal (hidden by default) */
