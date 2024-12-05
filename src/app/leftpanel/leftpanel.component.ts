@@ -4,6 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-leftpanel',
   imports: [],
   templateUrl: './leftpanel.component.html',
+  standalone: true,
   styleUrl: './leftpanel.component.css'
 })
 export class LeftpanelComponent {
